@@ -1,0 +1,22 @@
+tr,
+td,
+table {
+  border: 1px solid black;
+  border-collapse: collapse;  
+}
+td {
+  padding: 10px;
+}
+
+table {
+  margin: 30px;
+}
+
+table tbody tr:first-child {
+  font-weight: bold;
+}
+
+.zebraStripe {
+  background-color: black;
+  color: white;
+}
